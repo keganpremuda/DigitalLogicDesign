@@ -9,7 +9,7 @@ For a 2-bit input Mealy machine, there is one extra ability that can be added to
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Digital</b> 
+- <b>Digital</b><br><br>
 
 <h2>Program walk-through:</h2>
 
