@@ -7,7 +7,7 @@ For a 2-bit input Mealy machine, there is one extra ability that can be added to
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Design and Simulation Software Used</h2>
 
 - <b>Digital</b><br><br>
 
