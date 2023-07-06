@@ -1,8 +1,8 @@
 <h1>Digital Logic Design Capstone Project</h1>
 
 <h2>Description</h2>
-The goal of this project was to design the automation required for an autonomous wheelchair to be able to navigate down a path without any intervention by the passenger. The portion of the autonomy designed for this project is the lateral movement of the wheelchair.
-The synchronous sequential machines guiding the lateral movement will receive inputs that are designated to position the wheelchair to the left, right, or no lateral movement, and will be built as a 3-bit Mealy machine. The wheelchair will have a safety feature that keeps the lateral movement from moving more than 3 positions to the right or left.
+The goal of this project was to design the digital logic required for an autonomous wheelchair to be able to navigate down a path without any intervention by the passenger. The portion of the autonomy designed for this project is the lateral movement of the wheelchair.
+The synchronous sequential machines guiding the lateral movement will receive inputs that are designated to position the wheelchair to the left, right, or have no lateral movement, and will be built as a 3-bit Mealy machine. The wheelchair will have a safety feature that keeps the lateral movement from moving more than 3 positions to the right or left.
 For a 2-bit input Mealy machine, there is one extra ability that can be added to designate the 11 input, so a questionnaire to stakeholders was conducted to determine the best possible addition.
 <br />
 
@@ -23,7 +23,7 @@ The stakeholder questionnaire included the following questions:<br><br>
   4. What kind of environment do you plan to use the design in?<br>
   5. What is your budget for purchasing an autonomous wheelchair?<br>
 
-The solutions to the stakeholder questionnaire include the 11 input being a synchronous reset to the center lateral position, and when a right input in the extreme right position or left input in the extreme  left position are entered, the wheelchair will not move lateral in response to these inputs and will output a beeping alarm and warning light. An asynchronous reset to the center lateral position will be implemented later on in the development of the wheelchair.
+The solutions to the stakeholder questionnaire include the 11 input being a synchronous reset to the center lateral position, and when a right input in the extreme right position or left input in the extreme left position is detected, the wheelchair will not move laterally in response to these inputs and will output a beeping alarm and warning light. An asynchronous reset to the center lateral position will be implemented later on in the development of the wheelchair.
 The agreed-upon purchase price for the wheelchair was determined to be $5000, and the environments the wheelchair will operate in are homes, offices, sidewalks, hills, and inside stores. Two designs were implemented and scored based on design criteria, and the following design was the one chosen as the best fit because of its safety features.</p>
 <br /> 
 <br />
